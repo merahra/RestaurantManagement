@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/welcome_final" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="24sp" android:textStyle="bold" android:id="@+id/tvRestaurantName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="Your Restaurant" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <ImageButton android:id="@+id/btnAdminPanel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/admin" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:onClick="startAdminPanel" style="?unknown_attr_ref: 101032b" />
+    <ImageButton android:id="@+id/btnMenu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/menu" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:onClick="startMenu" style="?unknown_attr_ref: 101032b" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/icon" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="UNKNOWN_DATA_0x6401" android:contentDescription="@string/image" />
+    <TextView android:id="@+id/tvItemName" android:paddingLeft="10dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="hello" android:layout_toRightOf="@+id/icon" style="@style/RestText" />
+    <TextView android:id="@+id/tvCat" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="hello" android:layout_toRightOf="@+id/icon" android:layout_below="@+id/tvItemName" style="@style/RestSmallerText" />
+    <TextView android:id="@+id/tvPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="hello" android:layout_toRightOf="@+id/tvCurrency" android:layout_below="@+id/tvCat" style="@style/RestSmallerText" />
+    <TextView android:id="@+id/tvCurrency" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="£ " android:layout_below="@+id/tvCat" android:layout_alignLeft="@+id/tvCat" style="@style/RestSmallerText" />
+    <TextView android:id="@+id/tvDesc" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="hello" android:layout_toRightOf="@+id/icon" android:layout_below="@+id/tvCurrency" style="@style/RestSmallerText" />
+    <CheckBox android:id="@+id/chkItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:id="@+id/tvId" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</RelativeLayout>

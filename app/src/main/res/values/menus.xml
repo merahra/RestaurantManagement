@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="activity_main">res/menu/activity_main.xml</menu>
+    <menu name="add_item">res/menu/add_item.xml</menu>
+    <menu name="admin_login">res/menu/admin_login.xml</menu>
+    <menu name="admin_panel">res/menu/admin_panel.xml</menu>
+    <menu name="check_out">res/menu/check_out.xml</menu>
+    <menu name="completed_orders">res/menu/completed_orders.xml</menu>
+    <menu name="delete_items">res/menu/delete_items.xml</menu>
+    <menu name="list_menu">res/menu/list_menu.xml</menu>
+    <menu name="menu">res/menu/menu.xml</menu>
+    <menu name="select_order_quantity">res/menu/select_order_quantity.xml</menu>
+    <menu name="selectcurrency">res/menu/selectcurrency.xml</menu>
+    <menu name="set_name">res/menu/set_name.xml</menu>
+    <menu name="splash">res/menu/splash.xml</menu>
+    <menu name="update_item">res/menu/update_item.xml</menu>
+    <menu name="view_items">res/menu/view_items.xml</menu>
+    <menu name="view_orders">res/menu/view_orders.xml</menu>
+    <menu name="view_orders_by_table">res/menu/view_orders_by_table.xml</menu>
+</resources>

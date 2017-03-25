@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="categories">
+        <item>Appetizer</item>
+        <item>Salads</item>
+        <item>Beverages</item>
+        <item>Main Course</item>
+    </array>
+</resources>

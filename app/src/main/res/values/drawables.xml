@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="add">res/drawable/add.png</drawable>
+    <drawable name="admin">res/drawable/admin.png</drawable>
+    <drawable name="button">res/drawable/button.xml</drawable>
+    <drawable name="complete">res/drawable/complete.png</drawable>
+    <drawable name="currency">res/drawable/currency.png</drawable>
+    <drawable name="delete">res/drawable/delete.png</drawable>
+    <drawable name="edit_name">res/drawable/edit_name.png</drawable>
+    <drawable name="ic_launcher">res/drawable-ldpi/ic_launcher.png</drawable>
+    <drawable name="ic_launcher">res/drawable-mdpi/ic_launcher.png</drawable>
+    <drawable name="ic_launcher">res/drawable-hdpi/ic_launcher.png</drawable>
+    <drawable name="ic_launcher">res/drawable-xhdpi/ic_launcher.png</drawable>
+    <drawable name="image_bg">res/drawable/image_bg.xml</drawable>
+    <drawable name="menu">res/drawable/menu.png</drawable>
+    <drawable name="menu_background_final">res/drawable/menu_background_final.jpg</drawable>
+    <drawable name="view">res/drawable/view.png</drawable>
+    <drawable name="viewbytable">res/drawable/viewbytable.png</drawable>
+    <drawable name="vieworder">res/drawable/vieworder.png</drawable>
+    <drawable name="welcome_final">res/drawable/welcome_final.jpg</drawable>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/menu_background_final" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableLayout android:paddingLeft="25dp" android:paddingTop="20dp" android:paddingRight="25dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Item Name " style="@style/RestText" />
+            <EditText android:id="@+id/etItemName" android:background="0x1080018" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="10" />
+        </TableRow>
+        <TableRow android:paddingTop="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Category " style="@style/RestText" />
+            <Spinner android:id="@+id/spCategory" android:layout_width="match_parent" android:layout_height="wrap_content" android:ems="10" style="@*style/Widget.Spinner.DropDown" />
+        </TableRow>
+        <TableRow android:paddingTop="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Price/Serving " style="@style/RestText" />
+            <EditText android:id="@+id/etPrice" android:background="0x1080018" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="10" android:inputType="textCapWords|number|numberSigned|numberDecimal|numberPassword|phone" />
+        </TableRow>
+        <TableRow android:paddingTop="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Description " style="@style/RestText" />
+            <EditText android:id="@+id/etDescription" android:background="0x1080018" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="10" />
+        </TableRow>
+        <TableRow android:paddingTop="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@+id/btnLoadPicture" android:background="@drawable/button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Load Picture" android:layout_weight="0.0" android:onClick="loadPicture" style="@style/ButtonText" />
+            <ImageView android:id="@+id/imgItem" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="UNKNOWN_DATA_0x6401" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow android:paddingTop="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@+id/btnClickPicture" android:background="@drawable/button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Click Picture" android:layout_weight="0.0" android:onClick="clickPicture" style="@style/ButtonText" />
+        </TableRow>
+        <TableRow android:paddingTop="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@+id/btnSave" android:background="@drawable/button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Save" android:onClick="saveItem" style="@style/ButtonText" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

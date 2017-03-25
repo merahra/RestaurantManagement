@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/icon" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="UNKNOWN_DATA_0x6401" android:contentDescription="@string/image" />
+    <TextView android:id="@+id/tvViewItemName" android:paddingLeft="10dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="hello" android:layout_weight="1.0" android:layout_toRightOf="@+id/icon" android:layout_alignParentTop="true" style="@style/RestText" />
+    <TextView android:id="@+id/tvViewItemCat" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="hello" android:layout_below="@+id/tvViewItemName" android:layout_alignLeft="@+id/tvViewItemName" style="@style/RestSmallerText" />
+    <TextView android:id="@+id/tvViewItemPrice" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="hello" android:layout_toRightOf="@+id/textView1" android:layout_alignBaseline="@+id/textView1" android:layout_alignBottom="@+id/textView1" style="@style/RestSmallerText" />
+    <TextView android:id="@+id/textView1" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rs." android:layout_below="@+id/tvViewItemCat" android:layout_alignLeft="@+id/tvViewItemCat" style="@style/RestSmallerText" />
+    <TextView android:id="@+id/tvViewItemId" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:id="@+id/tvViewItemDesc" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="hello" android:layout_below="@+id/tvViewItemPrice" android:layout_alignLeft="@+id/textView1" style="@style/RestSmallerText" />
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableLayout android:padding="20dp" android:layout_width="match_parent" android:layout_height="match_parent" android:stretchColumns="1">
+        <TableRow>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ordered Items : " style="@style/RestText" />
+            &quot;
+            <TextView android:textColor="@color/navy" android:id="@+id/tvViewOrderedByTableItems" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200dp" android:text="items" android:singleLine="false" style="@style/RestText" />
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Total Amount : " style="@style/RestText" />
+            <TextView android:textColor="@color/navy" android:id="@+id/tvViewOrderedByTableAmount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200dp" android:text="items" android:singleLine="false" style="@style/RestText" />
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Date : " style="@style/RestText" />
+            <TextView android:textColor="@color/navy" android:id="@+id/tvViewOrderedByTableDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200dp" android:text="items" android:singleLine="false" style="@style/RestText" />
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bill No." style="@style/RestText" />
+            <TextView android:textColor="@color/navy" android:id="@+id/tvViewOrderedByTableBillNo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200dp" android:text="items" android:singleLine="false" style="@style/RestText" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/menu_background_final" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="24sp" android:textColor="@color/black" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/textView2" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Total Amount To Be Paid Is" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="24sp" android:textColor="@color/black" android:id="@+id/tvCurrency" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            <TextView android:textSize="24sp" android:textColor="@color/black" android:id="@+id/tvPayment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Me" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TableLayout android:padding="20dp" android:paddingBottom="30dp" android:layout_width="match_parent" android:layout_height="match_parent" android:stretchColumns="1">
+                <TableRow>
+                    <TextView android:textSize="24sp" android:textColor="@color/black" android:paddingTop="30dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Table No." />
+                    <EditText android:id="@+id/etTable" android:background="0x1080018" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="10" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+                </TableRow>
+                <TableRow android:paddingTop="15dp">
+                    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="24sp" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Payment Mode" />
+                    <RadioGroup android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/rdGroup" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0.5">
+                        <RadioButton android:textSize="24sp" android:textColor="@color/black" android:id="@+id/rdCash" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cash" />
+                        <RadioButton android:textSize="24sp" android:textColor="@color/black" android:id="@+id/rdCard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Card" />
+                    </RadioGroup>
+                </TableRow>
+                <TableRow android:paddingTop="15dp">
+                    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="24sp" android:textColor="@color/black" android:id="@+id/tvCard" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Card No." />
+                    <EditText android:id="@+id/etCard" android:background="0x1080019" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="10" />
+                </TableRow>
+                <TableRow android:paddingTop="15dp">
+                    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="24sp" android:textColor="@color/black" android:id="@+id/tvInvoice" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Invoice No." />
+                    <EditText android:id="@+id/etInvoice" android:background="0x1080018" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="10" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="200dp">
+            <Button android:id="@+id/btnConfirm" android:background="@drawable/button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CONFIRM" android:onClick="onConfirm" style="@style/ButtonText" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

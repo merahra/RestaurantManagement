@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/menu_background_final" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Enter Table No." style="@style/RestText" />
+        <EditText android:id="@+id/etTableNo" android:background="0x1080019" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+        <Button android:background="@drawable/button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Go" android:onClick="onGo" style="@style/ButtonText" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+        <TextView android:textSize="22sp" android:textColor="@color/black" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/tvPendingOrders" android:background="@color/gray" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Pending Orders" />
+        <ListView android:id="@+id/listIncomplete" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:divider="@color/black" android:dividerHeight="5dp" android:layout_weight="1.0" />
+        <TextView android:textSize="22sp" android:textColor="@color/black" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/tvCompletedOrders" android:background="@color/gray" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="Completed Orders" />
+        <ListView android:id="@+id/listComplete" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:divider="@color/black" android:dividerHeight="5dp" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

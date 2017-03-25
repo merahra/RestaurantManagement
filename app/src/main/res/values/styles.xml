@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme">
+    </style>
+    <style name="AppBaseTheme">
+    </style>
+    <style name="AppBaseTheme">
+    </style>
+    <style name="AppTheme">
+    </style>
+    <style name="DialogTheme">
+    </style>
+    <style name="ButtonText">
+        <item>20sp</item>
+        <item>1</item>
+        <item>#ffffff</item>
+        <item>11</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>3dp</item>
+        <item>#000000</item>
+        <item>1.0</item>
+        <item>1.0</item>
+        <item>2.0</item>
+    </style>
+    <style name="RestText">
+        <item>24sp</item>
+        <item>0</item>
+        <item>1</item>
+        <item>#000000</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>#ffffff</item>
+        <item>1.0</item>
+        <item>1.0</item>
+        <item>1.0</item>
+    </style>
+    <style name="RestSmallerText">
+        <item>16sp</item>
+        <item>0</item>
+        <item>1</item>
+        <item>#000000</item>
+        <item>-1</item>
+        <item>-2</item>
+    </style>
+</resources>
